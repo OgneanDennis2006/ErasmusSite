@@ -105,7 +105,8 @@ body {
     color: white;
     flex-direction: row-reverse;
   }
-    @media only screen and (max-width: 768px) {
+  
+  @media only screen and (max-width: 768px) {
     .container,
     .container1 {
         flex-direction: column;
@@ -132,4 +133,3 @@ body {
         text-align: center;
     }
 }
- 
