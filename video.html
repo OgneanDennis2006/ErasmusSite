@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="video.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="home.html">
+          <img src="logo.png" alt="Logo" width="150" height="150" >
+        </a>
+        </div>
+        <div class="navbar-right">
+          <a href="home.html">Home</a>
+          <a href="video.html">Video</a>
+          <a href="despre.html">Despre noi</a>
+        </div>
+        <div class="photo">
+            <img src="1121.png" alt="Photo" width="550" height="350">
+        </div>
+    </div>
+    <div class="video-container">
+        <video class="video" controls>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+        <video class="video" controls>
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+        <div class="toggle-video-btn">
+            <div class="arrow">
+                
+                <button class="button" onclick="toggleVideo()" style="vertical-align:middle"><span>Change </span></button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="video.js"></script>
+    </body>
+    </html>
+    

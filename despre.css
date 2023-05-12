@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+
+  /* Styles for the logo */
+  .logo {
+    float: left;
+    padding: 10px;
+  }
+
+  /* Styles for the photo */
+  .photo {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  /* Styles for the buttons */
+  .navbar-right {
+    float: right;
+  }
+
+  .navbar-right a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar-right a:hover {
+    background-color: #ddd;
+  }
